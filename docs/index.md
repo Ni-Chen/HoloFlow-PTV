@@ -4,7 +4,7 @@ title: "Snapshot space-time holographic three-dimensional particletracking veloc
 ---
 
 
-<h2 class="section-title"> Snapshot space-time holographic three-dimensional particletracking velocimetry  </h2>
+<h2 class="section-title"> Snapshot space-time holographic 3D particle tracking velocimetry  </h2>
 <h5 class="pubname"> Laser & Photonics Reviews, 2021 </h5>
 <nav class="text-center" style="width: 100%">
   <a href="https://ni-chen.github.io/" class="author">Ni Chen<sup>&dagger;</sup></a>
@@ -71,8 +71,8 @@ The manuscript link <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/lp
 <section class="container">
 <h5 class="section-title"> Bibtex </h5>
 <pre>
-  @article{Chen2020LPOR,
-    title      = {Snapshot space-time holographic three-dimensional particletracking velocimetry},
+  @article{Chen2021LPOR,
+    title      = {Snapshot space-time holographic 3D particle tracking velocimetry},
     author     = {Ni Chen and Congli Wang and Wolfgang Heidrich},
     journal    = {Laser \& Photonics Reviews},
     year       = {2021},
