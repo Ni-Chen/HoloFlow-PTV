@@ -1,0 +1,26 @@
+{% if site.footer_fixed %}
+<footer class="fixed-bottom">
+  <div class="sticky-bottom mt-5">
+    <div class="container" style="text-align:center;">
+    &copy; Copyright {{ site.time | date: '%Y' }}, {{ site.first_name }} {{ site.last_name }}
+    <br>
+    {{ site.footer_text }}
+    {% if site.last_updated %}
+    | Last updated: {{ "now" | date: '%B %d, %Y' }}
+    {% endif %}
+  </div>
+</footer>
+{% else %}
+<footer class="sticky-bottom mt-5">
+  <div class="container" style="text-align:center;">
+    &copy; Copyright {{ site.time | date: '%Y' }}, {{ site.first_name }} {{ site.last_name }}
+    <br>
+    {{ site.footer_text }}
+    {% if site.last_updated %}
+    <!-- | Last updated: {{ "now" | date: '%B %d, %Y' }} -->
+    | Last updated: {{ "now" | date: '%B, %Y' }}
+    {% endif %}
+  </div>
+</footer>
+{% endif %}
+
