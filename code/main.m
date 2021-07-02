@@ -6,7 +6,7 @@ cd(fileparts(which(mfilename)))
 rng('default');
 
 % add path
-addpath(genpath('./'));
+addpath(genpath('./data/'));
 addpath(genpath('./function/'));
 % addpath(genpath('./PrimalDualFramework/'));
 fista = [];
