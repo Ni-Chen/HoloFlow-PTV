@@ -13,8 +13,6 @@ fista = [];
 
 
 
-
-
 global out_dir obj_type obj_name isGPU my_export;
 
 my_export = @(x) export_fig([x '.png'], '-transparent');
@@ -45,7 +43,7 @@ end
 v_ratio = 1;
 
                   
-load([data_path 'particles-solid' '_rot-' obj_type '_holo_data1.mat']);
+load([data_path 'particles-solid' '_rot-' obj_type '_holo_data.mat']);
 
 ratio = params.dz / params.pps;
 priors = [alpha alpha * ratio^1 beta beta * ratio^1];
