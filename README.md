@@ -34,13 +34,16 @@ This repository contains **MATLAB** and **CUDA** (not yet published) implementat
 git clone https://github.com/Ni-Chen/HoloFlow-PTV.git
 ```
 
-2. Run the code
+2. Download the sample data from [Google Drive](https://drive.google.com/file/d/1_PLDmtNGrO_9n7o162oSxchj6my1HhLy/view?usp=sharing), and put it in folder of 'code/data/simulation'
+   
+3. Run the code
+
    - For MATLAB version, go into /HoloFlow-PTV/code/, run 'main.m'. 
-   
+
    - For CUDA version, compile the code firstly. (Documentation is under construction.) 
-   
+
    - Sample results:
-   
+
      
 |                       particle volumes                       |                  hologram #1                   |                  hologram #2                   |                     reconstructed flow                      |
 | :----------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: | :---------------------------------------------------------: |

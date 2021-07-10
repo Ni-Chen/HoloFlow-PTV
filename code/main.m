@@ -11,6 +11,10 @@ addpath(genpath('./function/'));
 % addpath(genpath('./PrimalDualFramework/'));
 fista = [];
 
+
+
+
+
 global out_dir obj_type obj_name isGPU my_export;
 
 my_export = @(x) export_fig([x '.png'], '-transparent');
@@ -27,6 +31,8 @@ out_iter = 10;
 num_frames = 2;
 
 data_path = [data_path 'simulation/'];
+
+
 obj_type = 'x'; mu = 0.5;
 tau = 0.001; holo_max_iter = 10;
 
@@ -38,7 +44,8 @@ end
 
 v_ratio = 1;
 
-load([data_path 'particles-solid' '_rot-' obj_type '_holo_data.mat']);
+                  
+load([data_path 'particles-solid' '_rot-' obj_type '_holo_data1.mat']);
 
 ratio = params.dz / params.pps;
 priors = [alpha alpha * ratio^1 beta beta * ratio^1];
