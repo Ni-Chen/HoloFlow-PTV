@@ -23,6 +23,9 @@ This repository contains **MATLAB** and **CUDA** (not yet published) implementat
 ### Requirements
 
  - Matlab or CUDA.
+ - Two Matalb Addons are also required for visualization:
+    - Image ellipsoid 3D: https://www.mathworks.com/matlabcentral/fileexchange/34104-image-ellipsoid-3d?s_tid=srchtitle_drawEllipsoid_2
+    - export_fig: https://www.mathworks.com/matlabcentral/fileexchange/23629-export_fig
 
 
 
@@ -34,7 +37,7 @@ This repository contains **MATLAB** and **CUDA** (not yet published) implementat
 git clone https://github.com/Ni-Chen/HoloFlow-PTV.git
 ```
 
-2. Download the sample data from [Google Drive](https://drive.google.com/file/d/1_PLDmtNGrO_9n7o162oSxchj6my1HhLy/view?usp=sharing), and put it in folder of 'code/data/simulation'
+2. Download the sample data from [Dropbox](https://www.dropbox.com/scl/fo/y6vndhv11014ntei576jr/h?dl=0&rlkey=xuoo3gbgggyr7n0o30x2hw3u2), and put it in folder of 'code/data/simulation'
    
 3. Run the code
 
