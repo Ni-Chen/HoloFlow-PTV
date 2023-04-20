@@ -1,133 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Snapshot space-time holographic three-dimensional particletracking velocimetry</title>
-  <meta name="description"
-    content="">
-  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=b897ce3e15da6f839fcdaa432ed065b89be2fa1f">
 
-  <!-- Load KaTex jQuery -->
-  <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
-  <!-- Load KaTeX -->
-  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css"> -->
-  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script> -->
-
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-      }
-    });
-  </script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
-  </script>
-
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56515654-4"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-56515654-4');
-  </script>
-
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?0662740a0d2368cc5cfaa508dd843362";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-  
-   <!-- Baidu Analytics -->
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?0662740a0d2368cc5cfaa508dd843362";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-56515654-4"></script>
 <script>
-  function ShowOrHide(select='inpress') {
-      // var elem = document.getElementById("btn");
-      var x = document.getElementById('inpress');
-      var y = document.getElementById('byyear');
-      var z = document.getElementById('bytype');
-      var w = document.getElementById('bytalk');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
-      var x_btn = document.getElementById("btn_inpress");
-      var y_btn = document.getElementById("btn_byyear");
-      var z_btn = document.getElementById("btn_bytype");
-      var w_btn = document.getElementById("btn_bytalk");
-
-
-      // document.getElementById(select).display='block';
-      // document.getElementById("btn_"+select).disabled=true;
-
-      if (select == 'inpress') {          
-          x.style.display = 'block';
-          x_btn.disabled = true; 
-          y.style.display = 'none';
-          y_btn.disabled = false;   
-          z.style.display = 'none';
-          z_btn.disabled = false;   
-          w.style.display = 'none';
-          w_btn.disabled = false;   
-          // elem.innerHTML = typetxt;
-      } else if (select == 'byyear'){          
-          x.style.display = 'none';
-          x_btn.disabled = false;  
-          y.style.display = 'block';
-          // y_btn.closest('li').addClass('active');   
-          y_btn.disabled = true;
-          z.style.display = 'none';
-          z_btn.disabled = false;  
-          w.style.display = 'none';
-          w_btn.disabled = false;   
-          // elem.innerHTML = yeartxt;
-      } else if (select == 'bytype'){          
-          x.style.display = 'none';
-          x_btn.disabled = false;  
-          y.style.display = 'none';
-          y_btn.disabled = false;  
-          z.style.display = 'block';
-          z_btn.disabled = true;
-          // z_btn.parents('li').addClass('active').siblings().removeClass('active'); 
-          w.style.display = 'none';
-          w_btn.disabled = false;   
-      }
-      else if (select == 'bytalk'){          
-          x.style.display = 'none';
-          x_btn.disabled = false;  
-          y.style.display = 'none';
-          y_btn.disabled = false;  
-          z.style.display = 'none';
-          z_btn.disabled = false;
-          w.style.display = 'block';
-          w_btn.disabled = true;   
-      }
-  }
+  gtag('config', 'UA-56515654-4');
 </script>
 
+ <!-- Baidu Analytics -->
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?0662740a0d2368cc5cfaa508dd843362";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
-  
+<!-- Setup Google Analytics -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  <script>
+  ga('create', 'UA-56515654-4', 'auto');
+  ga('send', 'pageview');
+</script>
+<script>
   var _hmt = _hmt || [];
   (function() {
     var hm = document.createElement("script");
@@ -138,58 +57,29 @@
 </script>
 
 
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
+<!-- end custom head snippets -->
+  </head>
 
-
-</head>
-
-
-  <body text-align="justify">
-    
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-				data-target="#navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-
-			<a class="navbar-brand" href="https://ni-chen.github.io/">Ni Chen, Ph.D.</a>
-		</div>
-		<div class="collapse navbar-collapse" id="navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="https://ni-chen.github.io/">About</a></li>
-				<!-- <li><a href="http://localhost:4000/people">People</a></li> -->
-				<!-- <li><a href="http://localhost:4000/vacancies">Vacancies</a></li> -->
-				<li><a href="https://ni-chen.github.io/publications">Publications</a></li>
-				<li><a href="https://ni-chen.github.io/research">Research</a></li>
-				<li><a href="https://ni-chen.github.io/funding">Funding</a></li>
-				<li><a href="https://ni-chen.github.io/resource">Resource</a></li>
-				<!-- <li><a href="http://localhost:4000/posts">Post</a></li> -->
-			</ul>
-		</div>
-	</div>
-</div>
-
-    <div class="container-fluid">
-      <div class="row">
+  <body>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h2 class="section-title"> Snapshot space-time holographic 3D particle tracking velocimetry  </h2>
 <h5 class="pubname"> Laser &amp; Photonics Reviews, 2021 </h5>
 <nav class="text-center" style="width: 100%">
-  <p><a href="https://ni-chen.github.io/" class="author">Ni Chen<sup>†</sup></a>
-  <a href="http://congliwang.github.io/" class="author">Congli Wang<sup>†</sup></a>
-  <a href="http://vccimaging.org/People/heidriw/" class="author"> Wolfgang Heidrich </a></p>
+  <a href="https://ni-chen.github.io/" class="author">Ni Chen<sup>&dagger;</sup></a>
+  <a href="http://congliwang.github.io/" class="author">Congli Wang<sup>&dagger;</sup></a>
+  <a href="http://vccimaging.org/People/heidriw/" class="author"> Wolfgang Heidrich </a>
 </nav>
 <nav>
-  <p>KAUST</p>
+ KAUST 
 </nav>
 
 <section class="container">
-  <abstract>
+<abstract>
 <h5 class="section-title">  Abstract  </h5>
 Digital inline holography is an amazingly simple and effective approach for three-dimensional imaging, to which particle tracking velocimetry is of particular interest. Conventional digital holographic particle tracking velocimetry techniques are computationally separated in particle and flow reconstruction, plus the expensive computations. Usually, the particle volumes are recovered firstly, from which fluid flows are computed. Without iterative reconstructions, This sequential space-time process lacks accuracy. This paper presents a joint optimization framework for digital holographic particle tracking velocimetry: particle volumes and fluid flows are reconstructed jointly in a higher space-time dimension, enabling faster convergence and better reconstruction quality of both fluid flow and particle volumes within a few minutes on modern GPUs. Synthetic and experimental results are presented to show the efficiency of the proposed technique.
 <br /><br />
@@ -198,46 +88,46 @@ Digital inline holography is an amazingly simple and effective approach for thre
 
 <!-- Framework -->
 <section class="container">
-  <h5 class="section-title"> Framework </h5>
-  <figure>
-    <p><img src="img/teaser.svg" alt="framework" style="width: 90%" /></p>
-    <figcaption>
-      <p>Fig. 1: Overall pipeline of our DIH-PTV space-time particle-flow reconstruction algorithm. Given single-shot hologram images, we obtained simultaneously spatial particle volumes and temporal fluid flows by solving the challenging inverse problem via alternating optimization of custom solvers with domain-specific priors.</p>
-    </figcaption>
-  </figure>
+<h5 class="section-title"> Framework </h5>
+<figure>
+<img src="img/teaser.svg" alt="framework" style="width: 90%" />
+<figcaption>
+Fig. 1: Overall pipeline of our DIH-PTV space-time particle-flow reconstruction algorithm. Given single-shot hologram images, we obtained simultaneously spatial particle volumes and temporal fluid flows by solving the challenging inverse problem via alternating optimization of custom solvers with domain-specific priors.
+</figcaption>
+</figure>
 </section>
 
 <!-- Results -->
 <section class="container">
-  <h5 class="section-title"> Some results  </h5>
-  <figure>
-    <p><img src="img/exp_vortex_holo1.png" alt="framework" style="height: 200px" />
+<h5 class="section-title"> Some results  </h5>
+<figure>
+  <img src="img/exp_vortex_holo1.png" alt="framework" style="height: 200px" />
   <img src="img/exp_vortex_holo2.png" alt="framework" style="height: 200px" />
   <img src="img/Visualization%202.gif" alt="framework" style="height: 200px" />
   <br />
   <img src="img/exp_inject_holo1.png" alt="framework" style="height: 200px" />
   <img src="img/exp_inject_holo2.png" alt="framework" style="height: 200px" />
-  <img src="img/Visualization%201.gif" alt="framework" style="height: 200px" /></p>
-    <figcaption>
-      <p>Fig. 2: Sample holograms and the corresponding reconstructions.</p>
-    </figcaption>
-  </figure>
+  <img src="img/Visualization%201.gif" alt="framework" style="height: 200px" />
+  <figcaption>
+  Fig. 2: Sample holograms and the corresponding reconstructions. 
+  </figcaption>
+</figure>
 </section>
 
 <!-- Data -->
 
 <!-- Downloads -->
 <section class="container">
-  <h5 class="section-title">  Downloads </h5>
-  <div class="row" style="padding-left: 36px">
-    <p>The manuscript link <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202100008"> <img src="img/pdf_64x64.png" alt="pdf manuscript" class="smallimg" /></a> | Github project link <a href="https://github.com/Ni-Chen/HoloFlow-PTV"><img src="img/github_64x64.png" alt="dataset" class="smallimg" />
-</a></p>
-  </div>
+<h5 class="section-title">  Downloads </h5>
+<div class="row" style="padding-left: 36px">
+The manuscript link <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202100008"> <img src="img/pdf_64x64.png" alt="pdf manuscript" class="smallimg" /></a> | Github project link <a href="https://github.com/Ni-Chen/HoloFlow-PTV"><img src="img/github_64x64.png" alt="dataset" class="smallimg" />
+</a>
+</div>
 </section>
 
 <section class="container">
-  <h5 class="section-title"> Bibtex </h5>
-  <pre>
+<h5 class="section-title"> Bibtex </h5>
+<pre>
   @article{Chen2021LPOR,
     title      = {Snapshot space-time holographic 3D particle tracking velocimetry},
     author     = {Ni Chen and Congli Wang and Wolfgang Heidrich},
@@ -251,40 +141,46 @@ Digital inline holography is an amazingly simple and effective approach for thre
 </section>
 
 
-
-        <script type="text/javascript">
-          // revert publication list number
-          var olists = document.getElementsByTagName('ol');
-          for (var i = 0; i < olists.length; i++) { 
-            // if (!olists[i].className.match(/\breversed\b/)) 
-            //   continue; 
-            var items = olists[i].getElementsByTagName('li'); 
-            for(var j = 0; j < items.length; j++) {
-               items[j].setAttribute("value", items.length - j); 
-            } 
-          }
-
-      </script>
-      </div>
+      </section>
     </div>
 
-    
-<footer class="sticky-bottom mt-5">
-  <div class="container" style="text-align:center;">
-    &copy; Copyright 2021, Ni Chen
-    <br>
-    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/inukshuk/jekyll-scholar" target="_blank">Jekyll Scholar</a>
+    <!-- FOOTER  -->
+    <footer class="inner">
+  <!-- For checkbox setting -->
+  <script type="text/javascript">
+    var inputs = document.getElementsByTagName('input');    
+    for (var i=0; i<inputs.length; i++) {
+      if (inputs[i].type == 'checkbox') {
+        if (inputs[i].checked == false){
+          inputs[i].disabled = false;
+        }    
+      }
+    }
+  </script>
+  
+  <!-- Foot note -->
+  
+  <p class="copyright">HoloFlow-PTV maintained by <a href="https://ni-chen.github.io">Ni Chen</a> | Last updated: April 20, 2023 </p>
+  
 
-    
-    <!-- | Last updated: July 12, 2021 -->
-    | Last updated: July, 2021
-    
-  </div>
 </footer>
-
-
+ 
 
 
   </body>
-
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+        },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+});</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } }); </script>
+   <!--Need to be after the contents-->
 </html>
