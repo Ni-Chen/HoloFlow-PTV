@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: "Snapshot space-time holographic three-dimensional particletracking velocimetry"
 ---
 
