@@ -98,4 +98,4 @@ other.maxit = 3;    % The outer iteration
 
 ## Contact
 
-Ni Chen (ni.chen@kaust.edu.sa), Congli Wang (congli.wang@kaust.edu.sa)
+Ni Chen (nichen@arizona.edu), Congli Wang (congli.wang@kaust.edu.sa)
