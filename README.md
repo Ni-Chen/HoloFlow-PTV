@@ -1,5 +1,7 @@
 ## Space-Time 4D Holographic PTV
 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) 
+
 [Project Page](https://ni-chen.github.io/HoloFlow-PTV/) | [Paper](https://onlinelibrary.wiley.com/journal/18638899)
 
 [**Snapshot Space-Time Holographic 3D Particle Tracking Velocimetry**](https://ni-chen.github.io/HoloFlow-PTV/)  in _Laser & Photonics Reviews_, 2021. <br>
