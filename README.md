@@ -103,4 +103,4 @@ other.maxit = 3;    % The outer iteration
 
 ## Contact
 
-Ni Chen (nichen@arizona.edu), Congli Wang (congli.wang@kaust.edu.sa)
+Ni Chen (nichen.optics@gmail.com), Congli Wang (congli.wang@kaust.edu.sa)
